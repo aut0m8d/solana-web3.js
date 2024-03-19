@@ -1,17 +1,24 @@
-export * from '@solana/accounts';
-export * from '@solana/addresses';
-export * from '@solana/codecs';
-export * from '@solana/errors';
-export * from '@solana/functional';
-export * from '@solana/instructions';
-export * from '@solana/keys';
-export * from '@solana/programs';
-export * from '@solana/rpc';
-export * from '@solana/rpc-parsed-types';
-export * from '@solana/rpc-subscriptions';
-export * from '@solana/rpc-types';
-export * from '@solana/signers';
-export * from '@solana/transactions';
-export * from './airdrop';
-export * from './decode-transaction';
-export * from './send-transaction';
+export * from './account';
+export * from './blockhash';
+export * from './bpf-loader-deprecated';
+export * from './bpf-loader';
+export * from './connection';
+export * from './epoch-schedule';
+export * from './errors';
+export * from './fee-calculator';
+export * from './keypair';
+export * from './loader';
+export * from './message';
+export * from './nonce-account';
+export * from './programs';
+export * from './publickey';
+export * from './transaction';
+export * from './validator-info';
+export * from './vote-account';
+export * from './sysvar';
+export * from './utils';
+
+/**
+ * There are 1-billion lamports in one SOL
+ */
+export const LAMPORTS_PER_SOL = 1000000000;

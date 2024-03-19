@@ -1,5 +1,11 @@
 
 
-> @solana/web3.js-experimental@2.0.0-preview.1 compile:typedefs /Users/rdgthree/code/solana-web3.js/packages/library
-> tsc -p ./tsconfig.declarations.json && node ../../node_modules/@solana/build-scripts/add-js-extension-to-types.mjs
+> @solana/web3.js@0.0.0-development compile:typedefs /Users/rdgthree/code/solana-web3.js/packages/library-legacy
+> ./scripts/typegen.sh
 
+[36m
+[1m./declarations/index.d.ts[22m → [1mlib/index.d.ts[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
+[1mnode:buffer[22m (imported by "declarations/account.d.ts", "declarations/bpf-loader.d.ts", "declarations/connection.d.ts", "declarations/loader.d.ts", "declarations/nonce-account.d.ts", "declarations/publickey.d.ts", "declarations/validator-info.d.ts", "declarations/vote-account.d.ts", "declarations/message/legacy.d.ts", "declarations/programs/secp256k1.d.ts", "declarations/utils/borsh-schema.d.ts", "declarations/transaction/legacy.d.ts" and "declarations/utils/send-and-confirm-raw-transaction.d.ts")
+[32mcreated [1mlib/index.d.ts[22m in [1m331ms[22m[39m

@@ -1,279 +1,7 @@
 
 
-> @solana/web3.js-experimental@2.0.0-preview.1 test:prettier /Users/rdgthree/code/solana-web3.js/packages/library
-> jest -c ../../node_modules/@solana/test-config/jest-prettier.config.ts --rootDir . --silent
+> @solana/web3.js@0.0.0-development test:prettier /Users/rdgthree/code/solana-web3.js/packages/library-legacy
+> prettier --check '{,{src,test}/**/}*.{j,t}s'
 
-[1m[2mDetermining test suites to run...[22m[22m[999D[K
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mpackage.json[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.json[22m
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.json[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mpackage.json[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.json[22m
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mpackage.json[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.json[22m
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mpackage.json[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mpackage.json[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.json[22m
-
-[1mTest Suites: [22m0 of 13 total
-[1mTests:       [22m0 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 of 13 total
-[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 of 13 total
-[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 of 13 total
-[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mindex.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 of 13 total
-[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 of 13 total
-[1mTests:       [22m[1m[32m5 passed[39m[22m, 5 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 of 13 total
-[1mTests:       [22m[1m[32m5 passed[39m[22m, 5 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 of 13 total
-[1mTests:       [22m[1m[32m5 passed[39m[22m, 5 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1msend-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mdecode-transaction.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/[22m[1mairdrop-internal.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m5 passed[39m[22m, 5 of 13 total
-[1mTests:       [22m[1m[32m5 passed[39m[22m, 5 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        1 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m8 passed[39m[22m, 8 of 13 total
-[1mTests:       [22m[1m[32m8 passed[39m[22m, 8 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m8 passed[39m[22m, 8 of 13 total
-[1mTests:       [22m[1m[32m8 passed[39m[22m, 8 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m8 passed[39m[22m, 8 of 13 total
-[1mTests:       [22m[1m[32m8 passed[39m[22m, 8 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m10 passed[39m[22m, 10 of 13 total
-[1mTests:       [22m[1m[32m10 passed[39m[22m, 10 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m10 passed[39m[22m, 10 of 13 total
-[1mTests:       [22m[1m[32m10 passed[39m[22m, 10 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2m./[22m[1mtsconfig.declarations.json[22m
-
-[1mTest Suites: [22m[1m[32m10 passed[39m[22m, 10 of 13 total
-[1mTests:       [22m[1m[32m10 passed[39m[22m, 10 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-
-[1mTest Suites: [22m[1m[32m12 passed[39m[22m, 12 of 13 total
-[1mTests:       [22m[1m[32m12 passed[39m[22m, 12 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[95m Prettier [39m[27m[0m [2msrc/types/[22m[1mglobal.d.ts[22m
-
-[1mTest Suites: [22m[1m[32m12 passed[39m[22m, 12 of 13 total
-[1mTests:       [22m[1m[32m12 passed[39m[22m, 12 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        2 s[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[999D[K
-[1mTest Suites: [22m[1m[32m13 passed[39m[22m, 13 total
-[1mTests:       [22m[1m[32m13 passed[39m[22m, 13 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        3.036 s
+Checking formatting...
+.eslintrc.js[2K[1Gcommitlint.config.js[2K[1Gsrc/__forks__/browser/fetch-impl.ts[2K[1Gsrc/__forks__/browser/rpc-websocket-factory.ts[2K[1Gsrc/__forks__/react-native/fetch-impl.ts[2K[1Gsrc/__forks__/react-native/rpc-websocket-factory.ts[2K[1Gsrc/account-data.ts[2K[1Gsrc/account.ts[2K[1Gsrc/blockhash.ts[2K[1Gsrc/bpf-loader-deprecated.ts[2K[1Gsrc/bpf-loader.ts[2K[1Gsrc/connection.ts[2K[1Gsrc/epoch-schedule.ts[2K[1Gsrc/errors.ts[2K[1Gsrc/fee-calculator.ts[2K[1Gsrc/fetch-impl.ts[2K[1Gsrc/index.ts[2K[1Gsrc/instruction.ts[2K[1Gsrc/keypair.ts[2K[1Gsrc/layout.ts[2K[1Gsrc/loader.ts[2K[1Gsrc/message/account-keys.ts[2K[1Gsrc/message/compiled-keys.ts[2K[1Gsrc/message/index.ts[2K[1Gsrc/message/legacy.ts[2K[1Gsrc/message/v0.ts[2K[1Gsrc/message/versioned.ts[2K[1Gsrc/nonce-account.ts[2K[1Gsrc/programs/address-lookup-table/index.ts[2K[1Gsrc/programs/address-lookup-table/state.ts[2K[1Gsrc/programs/compute-budget.ts[2K[1Gsrc/programs/ed25519.ts[2K[1Gsrc/programs/index.ts[2K[1Gsrc/programs/secp256k1.ts[2K[1Gsrc/programs/stake.ts[2K[1Gsrc/programs/system.ts[2K[1Gsrc/programs/vote.ts[2K[1Gsrc/publickey.ts[2K[1Gsrc/rpc-websocket-factory.ts[2K[1Gsrc/rpc-websocket.ts[2K[1Gsrc/sysvar.ts[2K[1Gsrc/timing.ts[2K[1Gsrc/transaction/constants.ts[2K[1Gsrc/transaction/expiry-custom-errors.ts[2K[1Gsrc/transaction/index.ts[2K[1Gsrc/transaction/legacy.ts[2K[1Gsrc/transaction/message.ts[2K[1Gsrc/transaction/versioned.ts[2K[1Gsrc/utils/assert.ts[2K[1Gsrc/utils/bigint.ts[2K[1Gsrc/utils/borsh-schema.ts[2K[1Gsrc/utils/cluster.ts[2K[1Gsrc/utils/ed25519.ts[2K[1Gsrc/utils/index.ts[2K[1Gsrc/utils/makeWebsocketUrl.ts[2K[1Gsrc/utils/promise-timeout.ts[2K[1Gsrc/utils/secp256k1.ts[2K[1Gsrc/utils/send-and-confirm-raw-transaction.ts[2K[1Gsrc/utils/send-and-confirm-transaction.ts[2K[1Gsrc/utils/shortvec-encoding.ts[2K[1Gsrc/utils/sleep.ts[2K[1Gsrc/utils/to-buffer.ts[2K[1Gsrc/validator-info.ts[2K[1Gsrc/vote-account.ts[2K[1Gtest/__shadow-jest-types.d.ts[2K[1Gtest/account.test.ts[2K[1Gtest/cluster.test.ts[2K[1Gtest/connection-subscriptions.test.ts[2K[1Gtest/connection.test.ts[2K[1Gtest/epoch-schedule.test.ts[2K[1Gtest/keypair.test.ts[2K[1Gtest/makeWebsocketUrl.test.ts[2K[1Gtest/message-tests/account-keys.test.ts[2K[1Gtest/message-tests/compiled-keys.test.ts[2K[1Gtest/message-tests/legacy.test.ts[2K[1Gtest/message-tests/v0.test.ts[2K[1Gtest/message-tests/versioned.test.ts[2K[1Gtest/mocks/rpc-http.ts[2K[1Gtest/mocks/rpc-websocket.ts[2K[1Gtest/nonce.test.ts[2K[1Gtest/program-tests/address-lookup-table.test.ts[2K[1Gtest/program-tests/compute-budget.test.ts[2K[1Gtest/program-tests/ed25519.test.ts[2K[1Gtest/program-tests/secp256k1.test.ts[2K[1Gtest/program-tests/stake.test.ts[2K[1Gtest/program-tests/system.test.ts[2K[1Gtest/program-tests/vote.test.ts[2K[1Gtest/publickey.test.ts[2K[1Gtest/shortvec-encoding.test.ts[2K[1Gtest/transaction-payer.test.ts[2K[1Gtest/transaction-tests/message.test.ts[2K[1Gtest/transaction.test.ts[2K[1Gtest/url.ts[2K[1Gtest/validator-info.test.ts[2K[1Gtest/websocket.test.ts[2K[1GAll matched files use Prettier code style!

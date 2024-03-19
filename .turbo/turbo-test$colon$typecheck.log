@@ -1,5 +1,5 @@
 
 
-> @solana/web3.js-experimental@2.0.0-preview.1 test:typecheck /Users/rdgthree/code/solana-web3.js/packages/library
+> @solana/web3.js@0.0.0-development test:typecheck /Users/rdgthree/code/solana-web3.js/packages/library-legacy
 > tsc --noEmit
 

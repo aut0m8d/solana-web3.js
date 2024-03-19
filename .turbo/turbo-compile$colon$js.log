@@ -1,67 +1,35 @@
 
 
-> @solana/web3.js-experimental@2.0.0-preview.1 compile:js /Users/rdgthree/code/solana-web3.js/packages/library
-> tsup --config build-scripts/tsup.config.library.ts
+> @solana/web3.js@0.0.0-development compile:js /Users/rdgthree/code/solana-web3.js/packages/library-legacy
+> cross-env NODE_ENV=production rollup -c
 
-[2m[[22mNODE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mNODE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mNODE[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mNODE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mNODE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mNODE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mNODE[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mNODE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mNATIVE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mNATIVE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mNATIVE[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mNATIVE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
-[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
-[2m[[22mNODE[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mNODE[2m][22m [34mCJS[39m Build start
-[2m[[22mNODE[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mNODE[2m][22m [34mESM[39m Build start
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mBROWSER[2m][22m [34mCJS[39m Build start
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mBROWSER[2m][22m [34mESM[39m Build start
-[2m[[22mNATIVE[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mNATIVE[2m][22m [34mESM[39m Build start
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mBROWSER[2m][22m [34mIIFE[39m Build start
-[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
-[2m[[22mBROWSER[2m][22m [34mIIFE[39m Build start
-[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.production.min.js [22m[32m106.29 KB[39m
-[2m[[22mBROWSER[2m][22m [32mIIFE[39m ⚡️ Build success in 1428ms
-[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.development.js     [22m[32m302.81 KB[39m
-[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.development.js.map [22m[32m644.32 KB[39m
-[2m[[22mBROWSER[2m][22m [32mIIFE[39m ⚡️ Build success in 1495ms
-[2m[[22mBROWSER[2m][22m [32mCJS[39m [1mdist/index.browser.cjs     [22m[32m11.19 KB[39m
-[2m[[22mBROWSER[2m][22m [32mCJS[39m [1mdist/index.browser.cjs.map [22m[32m20.63 KB[39m
-[2m[[22mBROWSER[2m][22m [32mCJS[39m ⚡️ Build success in 1595ms
-[2m[[22mBROWSER[2m][22m [32mESM[39m [1mdist/index.browser.js     [22m[32m7.85 KB[39m
-[2m[[22mBROWSER[2m][22m [32mESM[39m [1mdist/index.browser.js.map [22m[32m20.63 KB[39m
-[2m[[22mBROWSER[2m][22m [32mESM[39m ⚡️ Build success in 1595ms
-[2m[[22mNODE[2m][22m [32mESM[39m [1mdist/index.node.js     [22m[32m7.85 KB[39m
-[2m[[22mNODE[2m][22m [32mESM[39m [1mdist/index.node.js.map [22m[32m20.63 KB[39m
-[2m[[22mNODE[2m][22m [32mESM[39m ⚡️ Build success in 1612ms
-[2m[[22mNATIVE[2m][22m [32mESM[39m [1mdist/index.native.js     [22m[32m7.85 KB[39m
-[2m[[22mNATIVE[2m][22m [32mESM[39m [1mdist/index.native.js.map [22m[32m20.63 KB[39m
-[2m[[22mNATIVE[2m][22m [32mESM[39m ⚡️ Build success in 1594ms
-[2m[[22mNODE[2m][22m [32mCJS[39m [1mdist/index.node.cjs     [22m[32m11.19 KB[39m
-[2m[[22mNODE[2m][22m [32mCJS[39m [1mdist/index.node.cjs.map [22m[32m20.63 KB[39m
-[2m[[22mNODE[2m][22m [32mCJS[39m ⚡️ Build success in 1702ms
+[36m
+[1msrc/index.ts[22m → [1mlib/index.cjs.js, lib/index.esm.js[22m...[39m
+[32mcreated [1mlib/index.cjs.js, lib/index.esm.js[22m in [1m2.8s[22m[39m
+[36m
+[1msrc/index.ts[22m → [1mlib/index.browser.cjs.js, lib/index.browser.esm.js[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
+[1mnode:buffer[22m (imported by "src/publickey.ts", "src/connection.ts", "src/loader.ts", "src/account.ts", "src/validator-info.ts", "src/layout.ts", "src/utils/borsh-schema.ts", "src/utils/to-buffer.ts", "src/transaction/legacy.ts", "src/message/legacy.ts", "src/programs/ed25519.ts", "src/programs/secp256k1.ts", "src/instruction.ts" and "src/utils/bigint.ts")
+[32mcreated [1mlib/index.browser.cjs.js, lib/index.browser.esm.js[22m in [1m2.5s[22m[39m
+[36m
+[1msrc/index.ts[22m → [1mlib/index.iife.js, lib/index.iife.min.js[22m...[39m
+[1m[33m(!) Missing shims for Node.js built-ins[39m[22m
+Creating a browser bundle that depends on "node:buffer". You might need to include https://github.com/FredKSchott/rollup-plugin-polyfill-node
+[1m[33m(!) Missing shims for Node.js built-ins[39m[22m
+Creating a browser bundle that depends on "node:buffer". You might need to include https://github.com/FredKSchott/rollup-plugin-polyfill-node
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
+[1mnode:buffer[22m (imported by "src/loader.ts", "src/publickey.ts", "src/account.ts", "src/connection.ts", "src/validator-info.ts", "src/layout.ts", "src/utils/to-buffer.ts", "src/utils/borsh-schema.ts", "src/message/legacy.ts", "src/programs/secp256k1.ts", "src/programs/ed25519.ts", "src/transaction/legacy.ts", "src/instruction.ts" and "src/utils/bigint.ts")
+[1m[33m(!) Missing global variable names[39m[22m
+[90mhttps://rollupjs.org/configuration-options/#output-globals[39m
+Use "output.globals" to specify browser global variable names corresponding to external modules:
+[1mnode:buffer[22m (guessing "node_buffer")
+[1mnode:buffer[22m (guessing "node_buffer")
+[32mcreated [1mlib/index.iife.js, lib/index.iife.min.js[22m in [1m5.8s[22m[39m
+[36m
+[1msrc/index.ts[22m → [1mlib/index.native.js[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/troubleshooting/#warning-treating-module-as-external-dependency[39m
+[1mnode:buffer[22m (imported by "src/validator-info.ts", "src/account.ts", "src/connection.ts", "src/loader.ts", "src/publickey.ts", "src/layout.ts", "src/utils/borsh-schema.ts", "src/utils/to-buffer.ts", "src/programs/ed25519.ts", "src/programs/secp256k1.ts", "src/message/legacy.ts", "src/transaction/legacy.ts", "src/instruction.ts" and "src/utils/bigint.ts")
+[32mcreated [1mlib/index.native.js[22m in [1m2.5s[22m[39m

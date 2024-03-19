@@ -1,132 +1,869 @@
 
 
-> @solana/web3.js-experimental@2.0.0-preview.1 test:unit:node /Users/rdgthree/code/solana-web3.js/packages/library
-> jest -c ../../node_modules/@solana/test-config/jest-unit.config.node.ts --rootDir . --silent
+> @solana/web3.js@0.0.0-development test:unit:node /Users/rdgthree/code/solana-web3.js/packages/library-legacy
+> cross-env NODE_ENV=test TS_NODE_COMPILER_OPTIONS='{ "module": "commonjs", "target": "es2019" }' ts-mocha --require esm './test/**/*.test.ts'
 
-[1m[2mDetermining test suites to run...[22m[22m[999D[K
-[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
 
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1msend-transaction-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
+[0m[0m
+[0m  Account[0m
+  [32m  [32m✔[39m[0m[90m generate new account[0m
+  [32m  [32m✔[39m[0m[90m account from secret key[0m
 
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mdecode-transaction-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
+[0m  Cluster Util[0m
+  [32m  [32m✔[39m[0m[90m invalid[0m
+  [32m  [32m✔[39m[0m[90m devnet[0m
 
-[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[90m Unit Test (Node) [39m[27m[0m [2msrc/__tests__/[22m[1mairdrop-internal-test.ts[22m
-[K[1A[K[1A[999D[K
-[1mTest Suites: [22m[1m[32m3 passed[39m[22m, 3 total
-[1mTests:       [22m[1m[32m51 passed[39m[22m, 51 total
-[1mSnapshots:   [22m0 total
-[1mTime:[22m        0.23 s, estimated 1 s
+[0m  Subscriptions[0m
+[0m    The `accountSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m          attaching a second notification listener with different params[0m
+          [32m  [32m✔[39m[0m[90m results in a second subscription request being made to the RPC[0m
+[0m            when a notification for the first subscription is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m does not fire the second listener's callback[0m
+[0m            when a notification for the second subscription is published[0m
+            [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `logsSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m          attaching a second notification listener with different params[0m
+          [32m  [32m✔[39m[0m[90m results in a second subscription request being made to the RPC[0m
+[0m            when a notification for the first subscription is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m does not fire the second listener's callback[0m
+[0m            when a notification for the second subscription is published[0m
+            [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `programSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m          attaching a second notification listener with different params[0m
+          [32m  [32m✔[39m[0m[90m results in a second subscription request being made to the RPC[0m
+[0m            when a notification for the first subscription is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m does not fire the second listener's callback[0m
+[0m            when a notification for the second subscription is published[0m
+            [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `rootSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `signatureSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m          attaching a second notification listener with different params[0m
+          [32m  [32m✔[39m[0m[90m results in a second subscription request being made to the RPC[0m
+[0m            when a notification for the first subscription is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m does not fire the second listener's callback[0m
+[0m            when a notification for the second subscription is published[0m
+            [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `slotSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    The `slotsUpdatesSubscribe` RPC method[0m
+[0m      attaching the first notification listener[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then unsubscribing that listener before the subscription has been acknowledged by the server[0m
+[0m          once the subscription has been acknowledged by the server[0m
+          [32m  [32m✔[39m[0m[90m results in the subscription being torn down immediately[0m
+[0m        once the subscription has been acknowledged by the server[0m
+[0m          when a notification is published[0m
+          [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m          then unsubscribing that listener[0m
+          [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m            if a new listener is added before the unsubscribe is acknowledged by the server[0m
+[0m              once that unsubscribe is acknowledged by the server[0m
+              [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            when a notification is published before the unsubscribe is acknowledged by the server[0m
+            [32m  [32m✔[39m[0m[90m does not fire the listener callback[0m
+[0m            if that unsubscribe throws an exception[0m
+            [32m  [32m✔[39m[0m[90m results in a retry unsubscribe request being made to the RPC[0m
+[0m            then having the socket connection error[0m
+[0m              making another subscription while disconnected[0m
+ws error: A bad thing happened to the socket
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m            then having the socket connection drop unexpectedly[0m
+[0m              making another subscription while disconnected[0m
+              [32m  [32m✔[39m[0m[90m does not issue an RPC call[0m
+[0m              upon the socket connection reopening[0m
+              [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m                then upon the prior unsubscribe fataling (eg. because its timeout triggers)[0m
+                [32m  [32m✔[39m[0m[90m does not result in a new unsubscription request being made to the RPC[0m
+[0m          attaching a second notification listener with the same params[0m
+          [32m  [32m✔[39m[0m[90m does not result in a second subscription request to the RPC[0m
+[0m            when a notification is published[0m
+            [32m  [32m✔[39m[0m[90m fires the first listener's callback[0m
+            [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m            then unsubscribing the first listener[0m
+            [32m  [32m✔[39m[0m[90m does not result in an unsubscribe request being made to the RPC[0m
+[0m              when a notification is published[0m
+              [32m  [32m✔[39m[0m[90m does not fire the first listener's callback[0m
+              [32m  [32m✔[39m[0m[90m fires the second listener's callback[0m
+[0m        if that subscription throws an exception[0m
+        [32m  [32m✔[39m[0m[90m results in a retry subscription request being made to the RPC[0m
+[0m        then having the socket connection drop unexpectedly[0m
+[0m          then unsubscribing that listener[0m
+[0m            upon the socket connection reopening[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m          upon the socket connection reopening[0m
+          [32m  [32m✔[39m[0m[90m results in a new subscription request being made to the RPC[0m
+[0m            then upon the prior subscription fataling (eg. because its timeout triggers)[0m
+            [32m  [32m✔[39m[0m[90m does not result in a new subscription request being made to the RPC[0m
+[0m              once the new subscription has been acknowledged by the server[0m
+[0m                when a notification is published[0m
+                [32m  [32m✔[39m[0m[90m fires the listener callback[0m
+[0m    auto-disposing subscriptions[0m
+[0m      before an auto-disposing subscription has published any notification[0m
+[0m        then unsubscribing the listener[0m
+        [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m      after an auto-disposing subscription has published a non-final notification[0m
+      [32m  [32m✔[39m[0m[90m should not result in an unsubscribe request being made to the RPC[0m
+[0m        then unsubscribing the listener[0m
+        [32m  [32m✔[39m[0m[90m results in an unsubscribe request being made to the RPC[0m
+[0m      after an auto-disposing subscription has published its final notification[0m
+      [32m  [32m✔[39m[0m[90m should not result in an unsubscribe request being made to the RPC[0m
+[0m        then unsubscribing the listener[0m
+Ignored unsubscribe request because an active subscription with id `0` for 'signature result' events could not be found.
+        [32m  [32m✔[39m[0m[90m should not result in an unsubscribe request being made to the RPC[0m
+[0m    given a Connection with an unspecified commitment override[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m    given a Connection with its commitment overridden to `processed`[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m      making a subscription with defaulted params omitted[0m
+      [32m  [32m✔[39m[0m[90m results in a subscription request being made to the RPC[0m
+[0m        then making the same subscription with the defaultable params set to their defaults[0m
+        [32m  [32m✔[39m[0m[90m does not result in a subscription request being made to the RPC[0m
+[0m    during state machine updates[0m
+    [32m  [32m✔[39m[0m[90m the processor always operates over the most up-to-date state of a given subscription[0m
+
+[0m  Connection[0m
+  [32m  [32m✔[39m[0m[90m should pass HTTP headers to RPC[0m[33m (40ms)[0m
+  [32m  [32m✔[39m[0m[90m should allow middleware to augment request[0m
+  [32m  [32m✔[39m[0m[90m should attribute middleware fatals to the middleware[0m[31m (87ms)[0m
+  [32m  [32m✔[39m[0m[90m should not attribute fetch errors to the middleware[0m
+  [32m  [32m✔[39m[0m[90m get account info - not found[0m
+signatureSubscribe error for argument [
+  [32m'1111111111111111111111111111111111111111111111111111111111111113'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m get multiple accounts info[0m
+signatureSubscribe error for argument [
+  [32m'1111111111111111111111111111111111111111111111111111111111111114'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'4JDRZXfhuCtkA5CuviGWy6HWpRqZimGrWp5LbtVLq1Zxi1VMEC5mckhtJcnkYJL9KL2NNR5jVRD6bSbLVmf7Vun7'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'1111111111111111111111111111111111111111111111111111111111111116'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'aozbXV8SRDJRAGs9zwJkeqnRBFhqFyuybEuk5uoHozV3rZcQbMPCegEYUWDtUxSLvob4wfrmUvD5hGW5aXcB7VP'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m get program accounts[0m[31m (228ms)[0m
+  [32m  [32m✔[39m[0m[90m get balance[0m
+  [32m  [32m✔[39m[0m[90m get inflation[0m
+  [32m  [32m✔[39m[0m[90m get inflation reward[0m
+  [32m  [32m✔[39m[0m[90m get inflation rate[0m
+  [32m  [32m✔[39m[0m[90m get epoch info[0m
+  [32m  [32m✔[39m[0m[90m get epoch schedule[0m
+  [32m  [32m✔[39m[0m[90m get leader schedule[0m
+  [32m  [32m✔[39m[0m[90m get slot[0m
+  [32m  [32m✔[39m[0m[90m get slot leader[0m
+  [32m  [32m✔[39m[0m[90m get slot leaders[0m
+  [32m  [32m✔[39m[0m[90m get cluster nodes[0m
+  [32m  [32m✔[39m[0m[90m get transaction count[0m[33m (68ms)[0m
+  [32m  [32m✔[39m[0m[90m get total supply[0m[33m (61ms)[0m
+  [32m  [32m✔[39m[0m[90m get minimum balance for rent exemption[0m
+  [32m  [32m✔[39m[0m[90m get confirmed signatures for address[0m
+  [32m  [32m✔[39m[0m[90m get signatures for address[0m
+  [32m  [32m✔[39m[0m[90m get parsed confirmed transactions[0m[31m (194ms)[0m
+  [32m  [32m✔[39m[0m[90m get block height[0m
+  [32m  [32m✔[39m[0m[90m identical get block height calls get coalesced[0m
+  [32m  [32m✔[39m[0m[90m get block height calls whose args are in different orders but functionally identical get coalesced[0m
+  [32m  [32m✔[39m[0m[90m get block height calls with different params do not get coalesced[0m
+  [32m  [32m✔[39m[0m[90m get block height calls that fail bubble up to each coalesced caller[0m
+  [32m  [32m✔[39m[0m[90m follow on calls to get block height generate new network requests[0m
+  [32m  [32m✔[39m[0m[90m get block production[0m
+signatureSubscribe error for argument [
+  [32m'1111111111111111111111111111111111111111111111111111111111111119'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m get transaction[0m
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111A'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m get confirmed transaction[0m
+  [32m  [32m✔[39m[0m[90m get transactions[0m
+  [32m  [32m✔[39m[0m[90m get parsed confirmed transaction coerces public keys of inner instructions[0m
+  [32m  [32m✔[39m[0m[90m get blocks between two slots[0m
+  [32m  [32m✔[39m[0m[90m get blocks from starting slot[0m
+  [32m  [32m✔[39m[0m[90m get recent blockhash[0m
+  [32m  [32m✔[39m[0m[90m get latest blockhash[0m
+  [32m  [32m✔[39m[0m[90m is blockhash valid[0m[31m (242ms)[0m
+  [32m  [32m✔[39m[0m[90m get fee calculator[0m
+  [32m  [32m✔[39m[0m[90m get fee for message (legacy)[0m[31m (125ms)[0m
+  [32m  [32m✔[39m[0m[90m get fee for message (v0)[0m[33m (58ms)[0m
+  [32m  [32m✔[39m[0m[90m get recent prioritization fee[0m
+  [32m  [32m✔[39m[0m[90m get block time[0m
+  [32m  [32m✔[39m[0m[90m get minimum ledger slot[0m
+  [32m  [32m✔[39m[0m[90m get first available block[0m
+  [32m  [32m✔[39m[0m[90m get supply[0m
+  [32m  [32m✔[39m[0m[90m get supply without accounts[0m
+  [32m  [32m✔[39m[0m[90m get performance samples limit too high[0m
+  [32m  [32m✔[39m[0m[90m get largest accounts[0m
+  [32m  [32m✔[39m[0m[90m stake activation should throw when called for not delegated account[0m
+  [32m  [32m✔[39m[0m[90m stake activation should only accept state with valid string literals[0m
+  [32m  [32m✔[39m[0m[90m getVersion[0m
+  [32m  [32m✔[39m[0m[90m getGenesisHash[0m
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111L'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m request airdrop[0m[31m (147ms)[0m
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111M'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'2ApXNkuka2CVYmforcNQe8GGWVXXxEdEooMaX81gsgUiv6De38wVqXCxfesTPEGhRdwfKH7FCG9pKNU7oSqvPbQC'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'Nbs3s7NwiAeK24si8VZZHraDKkEa6xRmyxK5ZCun9Vw7QwYq377Ew8tqYPv9SyaYBn8YNp4pJBJVsHs8jCFDjBz'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m transaction failure[0m[31m (222ms)[0m
+No instructions provided
+  [32m  [32m✔[39m[0m[90m returnData on simulateTransaction[0m[33m (42ms)[0m
+[0m    override HTTP agent[0m
+    [32m  [32m✔[39m[0m[90m uses no agent with fetch when `overrideAgent` is `false`[0m
+    [32m  [32m✔[39m[0m[90m uses the supplied `overrideAgent` with fetch[0m
+    [32m  [32m✔[39m[0m[90m throws when the supplied `overrideAgent` is http but the endpoint is https[0m
+    [32m  [32m✔[39m[0m[90m throws when the supplied `overrideAgent` is https but the endpoint is http[0m
+[0m    transaction confirmation (mock)[0m
+signatureSubscribe error for argument [
+  [32m'w2Zeq8YkpyB463DttvfzARD7k9ZxGEwbsEw4boEK7jDp3pfoxZbTdLFSsEPhzXhpCcjGi2kHtHFobgX49MMhbWt'[39m,
+  { commitment: [32m'finalized'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+    [32m  [32m✔[39m[0m[90m confirm transaction - does not check the signature status before the signature subscription comes alive[0m
+    [32m  [32m✔[39m[0m[90m confirm transaction - checks the signature status once the signature subscription comes alive[0m
+    [32m  [32m✔[39m[0m[90m confirm transaction - does not confirm the transaction when signature status check yields confirmation for a lower commitment before signature subscription confirms the transaction[0m
+[0m      timeout strategy (deprecated)[0m
+      [32m  [32m✔[39m[0m[90m throws a `TransactionExpiredTimeoutError` when the timer elapses without a signature confirmation[0m
+[0m      block height strategy[0m
+      [32m  [32m✔[39m[0m[90m rejects if called with an already-aborted `abortSignal`[0m
+      [32m  [32m✔[39m[0m[90m rejects upon receiving an abort signal[0m
+      [32m  [32m✔[39m[0m[90m throws a `TransactionExpiredBlockheightExceededError` when the block height advances past the last valid one for this transaction without a signature confirmation[0m
+      [32m  [32m✔[39m[0m[90m when the `getBlockHeight` method throws an error it does not timeout but rather keeps waiting for a confirmation[0m[31m (77ms)[0m
+      [32m  [32m✔[39m[0m[90m confirms the transaction if the signature confirmation is received before the block height is exceeded[0m
+[0m      nonce strategy[0m
+      [32m  [32m✔[39m[0m[90m rejects if called with an already-aborted `abortSignal`[0m
+      [32m  [32m✔[39m[0m[90m rejects upon receiving an abort signal[0m
+      [32m  [32m✔[39m[0m[90m confirms the transaction if the signature confirmation is received before the nonce is advanced[0m
+      [32m  [32m✔[39m[0m[90m succeeds if double-checking the signature after the nonce-advances demonstrates that the transaction is confirmed[0m
+      [32m  [32m✔[39m[0m[90m keeps double-checking the signature after the nonce-advances until a signature from the minimum allowable slot is obtained[0m
+      [32m  [32m✔[39m[0m[90m throws a `TransactionExpiredNonceInvalidError` when the nonce is no longer the one with which this transaction was signed[0m
+      [32m  [32m✔[39m[0m[90m when fetching the nonce account throws an error it does not timeout but rather keeps waiting for a confirmation[0m
+      [32m  [32m✔[39m[0m[90m throws `TransactionExpiredNonceInvalidError` when the nonce account does not exist[0m
+      [32m  [32m✔[39m[0m[90m when the nonce account data fails to deserialize[0m
+[0m    transaction confirmation[0m
+    [32m  [32m✔[39m[0m[90m confirm transaction - error[0m
+[0m    get parsed block[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `full`[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `none`[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `accounts`[0m
+[0m    get block[0m
+    [32m  [32m✔[39m[0m[90m gets the genesis block[0m
+    [32m  [32m✔[39m[0m[90m gets a block having a parent[0m[31m (91ms)[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `full`[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `none`[0m
+    [32m  [32m✔[39m[0m[90m can deserialize a response when `transactionDetails` is `accounts`[0m
+[0m    get confirmed block[0m
+    [32m  [32m✔[39m[0m[90m gets the genesis block[0m
+    [32m  [32m✔[39m[0m[90m gets a block having a parent[0m
+[0m    get block signatures[0m
+    [32m  [32m✔[39m[0m[90m gets the genesis block[0m
+    [32m  [32m✔[39m[0m[90m gets a block having a parent[0m
+[0m    when the connection's default commitment is `undefined`[0m
+    [32m  [32m✔[39m[0m[90m get performance samples[0m
+[0m    when the connection's default commitment is `confirmed`[0m
+    [32m  [32m✔[39m[0m[90m get performance samples[0m
+
+[0m  EpochSchedule[0m
+  [32m  [32m✔[39m[0m[90m slot methods work[0m
+
+[0m  Keypair[0m
+  [32m  [32m✔[39m[0m[90m new keypair[0m
+  [32m  [32m✔[39m[0m[90m generate new keypair[0m
+  [32m  [32m✔[39m[0m[90m create keypair from secret key[0m
+  [32m  [32m✔[39m[0m[90m creating keypair from invalid secret key throws error[0m
+  [32m  [32m✔[39m[0m[90m creating keypair from invalid secret key succeeds if validation is skipped[0m
+  [32m  [32m✔[39m[0m[90m generate keypair from random seed[0m
+
+[0m  makeWebsocketUrl[0m
+  [32m  [32m✔[39m[0m[90m converts `http://api.devnet.solana.com/` to `ws://api.devnet.solana.com/`[0m
+  [32m  [32m✔[39m[0m[90m converts `gopher://gopher.example.com/` to `ws://gopher.example.com/`[0m
+  [32m  [32m✔[39m[0m[90m converts `http://localhost/` to `ws://localhost/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://api.devnet.solana.com/` to `wss://api.devnet.solana.com/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://192.168.0.1/` to `wss://192.168.0.1/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://[0:0:0:0:0:0:0:0]/` to `wss://[0:0:0:0:0:0:0:0]/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://[::]/` to `wss://[::]/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://[::1]/` to `wss://[::1]/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://api.devnet.solana.com:80/` to `wss://api.devnet.solana.com:81/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://192.168.0.1:443/` to `wss://192.168.0.1:444/`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://[::]:8080/` to `wss://[::]:8081/`[0m
+  [32m  [32m✔[39m[0m[90m converts `http://api.devnet.solana.com` to `ws://api.devnet.solana.com`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://api.devnet.solana.com` to `wss://api.devnet.solana.com`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://api.devnet.solana.com:80` to `wss://api.devnet.solana.com:81`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://alice@private.com` to `wss://alice@private.com`[0m
+  [32m  [32m✔[39m[0m[90m converts `https://bob:password@private.com` to `wss://bob:password@private.com`[0m
+  [32m  [32m✔[39m[0m[90m fatals when called with invalid url ``[0m
+  [32m  [32m✔[39m[0m[90m fatals when called with invalid url `0.0.0.0`[0m
+  [32m  [32m✔[39m[0m[90m fatals when called with invalid url `localhost`[0m
+  [32m  [32m✔[39m[0m[90m fatals when called with invalid url `www.no-protocol.com`[0m
+  [32m  [32m✔[39m[0m[90m fatals when called with invalid url `//api.protocol.relative.com`[0m
+
+[0m  MessageAccountKeys[0m
+  [32m  [32m✔[39m[0m[90m keySegments[0m
+  [32m  [32m✔[39m[0m[90m get[0m
+  [32m  [32m✔[39m[0m[90m get with loaded addresses[0m
+  [32m  [32m✔[39m[0m[90m length[0m
+  [32m  [32m✔[39m[0m[90m length with loaded addresses[0m
+  [32m  [32m✔[39m[0m[90m compileInstructions[0m
+  [32m  [32m✔[39m[0m[90m compileInstructions with unknown key[0m
+  [32m  [32m✔[39m[0m[90m compileInstructions with too many account keys[0m
+
+[0m  CompiledKeys[0m
+  [32m  [32m✔[39m[0m[90m compile[0m
+  [32m  [32m✔[39m[0m[90m compile with dup payer[0m
+  [32m  [32m✔[39m[0m[90m compile with dup key[0m
+  [32m  [32m✔[39m[0m[90m getMessageComponents[0m
+  [32m  [32m✔[39m[0m[90m getMessageComponents with overflow[0m
+  [32m  [32m✔[39m[0m[90m extractTableLookup[0m
+  [32m  [32m✔[39m[0m[90m extractTableLookup no extractable keys found[0m
+  [32m  [32m✔[39m[0m[90m extractTableLookup with empty lookup table[0m
+  [32m  [32m✔[39m[0m[90m extractTableLookup with invalid lookup table[0m
+
+[0m  Message[0m
+  [32m  [32m✔[39m[0m[90m compile[0m
+  [32m  [32m✔[39m[0m[90m compile without instructions[0m
+  [32m  [32m✔[39m[0m[90m isAccountWritable[0m
+  [32m  [32m✔[39m[0m[90m isAccountSigner[0m
+
+[0m  MessageV0[0m
+  [32m  [32m✔[39m[0m[90m numAccountKeysFromLookups[0m
+  [32m  [32m✔[39m[0m[90m getAccountKeys[0m
+  [32m  [32m✔[39m[0m[90m resolveAddressTableLookups[0m
+  [32m  [32m✔[39m[0m[90m compile[0m
+  [32m  [32m✔[39m[0m[90m serialize and deserialize[0m
+  [32m  [32m✔[39m[0m[90m deserialize failures[0m
+  [32m  [32m✔[39m[0m[90m isAccountWritable[0m
+  [32m  [32m✔[39m[0m[90m isAccountSigner[0m
+
+[0m  VersionedMessage[0m
+  [32m  [32m✔[39m[0m[90m deserializeMessageVersion[0m
+  [32m  [32m✔[39m[0m[90m deserialize failure[0m
+
+[0m  Nonce[0m
+signatureSubscribe error for argument [
+  [32m'3DQe3g74gxFVRTRN96jr7hf317t84GdqKtVqsJySFfvEgLPsYUroXa24VsPZ23SnLjADZ6FKyxyrKjd1EFkdXYSs'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m create and query nonce account[0m
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111S'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'3ebYySSvUSYr4kdSEJ7Y9aACLCYd4TYYEmtDT59NjUtTPChWA2ytofk6TFVBfD53LDAseDLv89FbHiMM5QaQVGyE'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m create and query nonce account with seed[0m[33m (75ms)[0m
+
+[0m  AddressLookupTableProgram[0m
+  [32m  [32m✔[39m[0m[90m createAddressLookupTable[0m
+  [32m  [32m✔[39m[0m[90m extendLookupTableWithPayer[0m
+  [32m  [32m✔[39m[0m[90m extendLookupTableWithoutPayer[0m
+  [32m  [32m✔[39m[0m[90m closeLookupTable[0m
+  [32m  [32m✔[39m[0m[90m freezeLookupTable[0m
+  [32m  [32m✔[39m[0m[90m deactivateLookupTable[0m
+
+[0m  ComputeBudgetProgram[0m
+  [32m  [32m✔[39m[0m[90m requestUnits[0m
+  [32m  [32m✔[39m[0m[90m requestHeapFrame[0m
+  [32m  [32m✔[39m[0m[90m setComputeUnitLimit[0m
+  [32m  [32m✔[39m[0m[90m setComputeUnitPrice[0m
+
+[0m  StakeProgram[0m
+  [32m  [32m✔[39m[0m[90m createAccountWithSeed[0m
+  [32m  [32m✔[39m[0m[90m createAccount[0m
+  [32m  [32m✔[39m[0m[90m delegate[0m
+  [32m  [32m✔[39m[0m[90m authorize[0m
+  [32m  [32m✔[39m[0m[90m authorize with custodian[0m
+  [32m  [32m✔[39m[0m[90m authorizeWithSeed[0m
+  [32m  [32m✔[39m[0m[90m authorizeWithSeed with custodian[0m
+  [32m  [32m✔[39m[0m[90m split[0m
+  [32m  [32m✔[39m[0m[90m splitWithSeed (rent reserve: 0)[0m
+  [32m  [32m✔[39m[0m[90m splitWithSeed (rent reserve: undefined)[0m
+  [32m  [32m✔[39m[0m[90m splitWithSeed (rent reserve: 456)[0m
+  [32m  [32m✔[39m[0m[90m merge[0m
+  [32m  [32m✔[39m[0m[90m withdraw[0m
+  [32m  [32m✔[39m[0m[90m withdraw with custodian[0m
+  [32m  [32m✔[39m[0m[90m deactivate[0m
+  [32m  [32m✔[39m[0m[90m StakeInstructions[0m
+
+[0m  SystemProgram[0m
+  [32m  [32m✔[39m[0m[90m createAccount[0m
+  [32m  [32m✔[39m[0m[90m transfer[0m
+  [32m  [32m✔[39m[0m[90m transferWithSeed[0m
+  [32m  [32m✔[39m[0m[90m allocate[0m
+  [32m  [32m✔[39m[0m[90m allocateWithSeed[0m
+  [32m  [32m✔[39m[0m[90m assign[0m
+  [32m  [32m✔[39m[0m[90m assignWithSeed[0m
+  [32m  [32m✔[39m[0m[90m createAccountWithSeed[0m
+  [32m  [32m✔[39m[0m[90m createNonceAccount[0m
+  [32m  [32m✔[39m[0m[90m createNonceAccount with seed[0m
+  [32m  [32m✔[39m[0m[90m nonceAdvance[0m
+  [32m  [32m✔[39m[0m[90m nonceWithdraw[0m
+  [32m  [32m✔[39m[0m[90m nonceAuthorize[0m
+  [32m  [32m✔[39m[0m[90m non-SystemInstruction error[0m
+
+[0m  VoteProgram[0m
+  [32m  [32m✔[39m[0m[90m createAccount[0m
+  [32m  [32m✔[39m[0m[90m initialize[0m
+  [32m  [32m✔[39m[0m[90m authorize[0m
+  [32m  [32m✔[39m[0m[90m authorize with seed[0m
+  [32m  [32m✔[39m[0m[90m withdraw[0m
+
+[0m  PublicKey[0m
+  [32m  [32m✔[39m[0m[90m invalid[0m
+  [32m  [32m✔[39m[0m[90m equals[0m
+  [32m  [32m✔[39m[0m[90m toBase58[0m
+  [32m  [32m✔[39m[0m[90m toJSON[0m
+  [32m  [32m✔[39m[0m[90m toBuffer[0m
+  [32m  [32m✔[39m[0m[90m equals (II)[0m
+  [32m  [32m✔[39m[0m[90m createWithSeed[0m
+  [32m  [32m✔[39m[0m[90m createProgramAddress[0m
+  [32m  [32m✔[39m[0m[90m findProgramAddress[0m
+  [32m  [32m✔[39m[0m[90m isOnCurve[0m
+  [32m  [32m✔[39m[0m[90m canBeSerializedWithBorsh[0m
+  [32m  [32m✔[39m[0m[90m canBeDeserializedUncheckedWithBorsh[0m
+
+[0m  shortvec[0m
+  [32m  [32m✔[39m[0m[90m decodeLength[0m
+  [32m  [32m✔[39m[0m[90m encodeLength[0m
+
+[0m  Transaction Payer[0m
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111U'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111V'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'111111111111111111111111111111111111111111111111111111111111111W'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+signatureSubscribe error for argument [
+  [32m'3hiYtkjLZqKfT2MdXvQ49HXwN1M135YxrZWNUgh2jX8JnfABVEefwh35AhGFRGZc3DEY49vjQxr3nKRTVNUP3nNh'[39m,
+  { commitment: [32m'confirmed'[39m }
+] expected 'signatureSubscribe' to equal 'signatureUnsubscribe'
+  [32m  [32m✔[39m[0m[90m transaction-payer[0m[31m (138ms)[0m
+
+[0m  TransactionMessage[0m
+  [32m  [32m✔[39m[0m[90m decompiles a legacy message[0m
+  [32m  [32m✔[39m[0m[90m decompiles a legacy message the same way as the old API[0m
+  [32m  [32m✔[39m[0m[90m decompiles a V0 message[0m
+
+[0m  Transaction[0m
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+Transaction references a signature that is unnecessary, only the fee payer and instruction signer accounts should sign a transaction. This behavior is deprecated and will throw an error in the next major version release.
+  [32m  [32m✔[39m[0m[90m partialSign[0m[33m (58ms)[0m
+  [32m  [32m✔[39m[0m[90m transfer signatures[0m
+  [32m  [32m✔[39m[0m[90m dedup signatures[0m
+  [32m  [32m✔[39m[0m[90m use nonce[0m
+  [32m  [32m✔[39m[0m[90m parse wire format and serialize[0m
+  [32m  [32m✔[39m[0m[90m populate transaction[0m
+  [32m  [32m✔[39m[0m[90m populate then compile transaction[0m
+  [32m  [32m✔[39m[0m[90m constructs a transaction with nonce info[0m
+  [32m  [32m✔[39m[0m[90m constructs a transaction with last valid block height[0m
+  [32m  [32m✔[39m[0m[90m constructs a transaction with nonce information[0m
+  [32m  [32m✔[39m[0m[90m constructs a transaction with only a recent blockhash[0m
+  [32m  [32m✔[39m[0m[90m serialize unsigned transaction[0m
+  [32m  [32m✔[39m[0m[90m throws for invalid signatures[0m
+  [32m  [32m✔[39m[0m[90m deprecated - externally signed stake delegate[0m
+  [32m  [32m✔[39m[0m[90m externally signed stake delegate[0m
+  [32m  [32m✔[39m[0m[90m can serialize, deserialize, and reserialize with a partial signer[0m
+[0m    compileMessage[0m
+    [32m  [32m✔[39m[0m[90m accountKeys are ordered[0m
+    [32m  [32m✔[39m[0m[90m accountKeys collapses signedness and writability of duplicate accounts[0m
+    [32m  [32m✔[39m[0m[90m payer is first account meta[0m
+No instructions provided
+No instructions provided
+No instructions provided
+No instructions provided
+    [32m  [32m✔[39m[0m[90m validation[0m
+    [32m  [32m✔[39m[0m[90m payer is writable[0m
+    [32m  [32m✔[39m[0m[90m uses the nonce as the recent blockhash when compiling nonce-based transactions[0m
+    [32m  [32m✔[39m[0m[90m prepends the nonce advance instruction when compiling nonce-based transactions[0m
+    [32m  [32m✔[39m[0m[90m does not prepend the nonce advance instruction when compiling nonce-based transactions if it is already there[0m
+[0m    dedupe[0m
+    [32m  [32m✔[39m[0m[90m setSigners[0m
+    [32m  [32m✔[39m[0m[90m sign[0m
+[0m    partially signed transaction signature verification tests[0m
+    [32m  [32m✔[39m[0m[90m verifies for no sigs[0m
+    [32m  [32m✔[39m[0m[90m verifies for one sig[0m
+    [32m  [32m✔[39m[0m[90m verifies for all sigs[0m
+    [32m  [32m✔[39m[0m[90m throws for wrong sig with only one sig present[0m
+    [32m  [32m✔[39m[0m[90m throws for wrong sig with all sigs present[0m
+
+[0m  VersionedTransaction[0m
+  [32m  [32m✔[39m[0m[90m deserializes versioned transactions[0m
+[0m    addSignature[0m
+    [32m  [32m✔[39m[0m[90m appends externally generated signatures at correct indexes[0m
+    [32m  [32m✔[39m[0m[90m fatals when the signature is the wrong length[0m
+    [32m  [32m✔[39m[0m[90m fatals when adding a signature for a public key that has not been marked as a signer[0m
+
+[0m  ValidatorInfo[0m
+  [32m  [32m✔[39m[0m[90m from config account data[0m
+
+
+[92m [0m[32m 455 passing[0m[90m (6s)[0m
+
