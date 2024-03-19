@@ -1,4 +1,4 @@
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import {keccak_256} from '@noble/hashes/sha3';
 
 import {

@@ -1,4 +1,4 @@
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import {serialize, deserialize, deserializeUnchecked} from 'borsh';
 
 // Class wrapping a plain object

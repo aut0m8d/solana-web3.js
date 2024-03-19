@@ -1,5 +1,5 @@
 import bs58 from 'bs58';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import {expect, use} from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 

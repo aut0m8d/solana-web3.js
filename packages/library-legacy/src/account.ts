@@ -1,4 +1,4 @@
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 
 import {generatePrivateKey, getPublicKey} from './utils/ed25519';
 import {toBuffer} from './utils/to-buffer';

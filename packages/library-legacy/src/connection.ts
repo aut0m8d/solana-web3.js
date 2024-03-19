@@ -2,7 +2,7 @@ import HttpKeepAliveAgent, {
   HttpsAgent as HttpsKeepAliveAgent,
 } from 'agentkeepalive';
 import bs58 from 'bs58';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 // @ts-ignore
 import fastStableStringify from 'fast-stable-stringify';
 import type {Agent as NodeHttpAgent} from 'http';

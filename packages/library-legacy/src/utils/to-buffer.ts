@@ -1,4 +1,4 @@
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 
 export const toBuffer = (arr: Buffer | Uint8Array | Array<number>): Buffer => {
   if (Buffer.isBuffer(arr)) {

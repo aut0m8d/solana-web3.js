@@ -1,4 +1,4 @@
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import * as BufferLayout from '@solana/buffer-layout';
 import {keccak_256} from '@noble/hashes/sha3';
 

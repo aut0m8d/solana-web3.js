@@ -1,5 +1,5 @@
 import BN from 'bn.js';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import {expect, use} from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 

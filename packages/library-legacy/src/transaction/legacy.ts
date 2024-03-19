@@ -1,5 +1,5 @@
 import bs58 from 'bs58';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 
 import {PACKET_DATA_SIZE, SIGNATURE_LENGTH_IN_BYTES} from './constants';
 import {Connection} from '../connection';

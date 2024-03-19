@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 
 import {Account} from '../src/account';
 

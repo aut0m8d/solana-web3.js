@@ -1,6 +1,6 @@
 import BN from 'bn.js';
 import bs58 from 'bs58';
-import {Buffer} from 'buffer';
+import {Buffer} from 'node:buffer';
 import {sha256} from '@noble/hashes/sha256';
 
 import {isOnCurve} from './utils/ed25519';
