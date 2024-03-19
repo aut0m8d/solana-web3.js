@@ -1,5 +1,1 @@
-.changeset/
-.github/workflows/PULL_REQUEST_TEMPLATE.md
-
-pnpm-lock.yaml
-pnpm-workspace.yaml
+dist/

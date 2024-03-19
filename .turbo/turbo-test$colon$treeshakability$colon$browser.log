@@ -1,0 +1,37 @@
+
+
+> @solana/web3.js-experimental@2.0.0-preview.1 test:treeshakability:browser /Users/rdgthree/code/solana-web3.js/packages/library
+> agadoo dist/index.browser.js
+
+"@solana/accounts" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/addresses" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/codecs" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/errors" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/functional" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/instructions" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/keys" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/programs" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/rpc" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/rpc-parsed-types" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/rpc-subscriptions" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/rpc-types" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/signers" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/transactions" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+"@solana/transaction-confirmation" is imported by "dist/index.browser.js", but could not be resolved – treating it as an external dependency.
+import '@solana/accounts';
+import '@solana/addresses';
+import '@solana/codecs';
+import '@solana/errors';
+import '@solana/functional';
+import '@solana/instructions';
+import '@solana/keys';
+import '@solana/programs';
+import '@solana/rpc';
+import '@solana/rpc-parsed-types';
+import '@solana/rpc-subscriptions';
+import '@solana/rpc-types';
+import '@solana/signers';
+import '@solana/transactions';
+import '@solana/transaction-confirmation';
+
+Success! dist/index.browser.js is fully tree-shakeable

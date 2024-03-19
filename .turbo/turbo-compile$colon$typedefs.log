@@ -1,0 +1,5 @@
+
+
+> @solana/web3.js-experimental@2.0.0-preview.1 compile:typedefs /Users/rdgthree/code/solana-web3.js/packages/library
+> tsc -p ./tsconfig.declarations.json && node ../../node_modules/@solana/build-scripts/add-js-extension-to-types.mjs
+

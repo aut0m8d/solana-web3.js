@@ -1,0 +1,67 @@
+
+
+> @solana/web3.js-experimental@2.0.0-preview.1 compile:js /Users/rdgthree/code/solana-web3.js/packages/library
+> tsup --config build-scripts/tsup.config.library.ts
+
+[2m[[22mNODE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mNODE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mNODE[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mNODE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mNODE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mNODE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mNODE[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mNODE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mNATIVE[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mNATIVE[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mNATIVE[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mNATIVE[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Building entry: ./src/index.ts
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsconfig: tsconfig.json
+[2m[[22mBROWSER[2m][22m [34mCLI[39m tsup v8.0.1
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Using tsup config: /Users/rdgthree/code/solana-web3.js/packages/build-scripts/tsup.config.library.ts
+[2m[[22mNODE[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mNODE[2m][22m [34mCJS[39m Build start
+[2m[[22mNODE[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mNODE[2m][22m [34mESM[39m Build start
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mBROWSER[2m][22m [34mCJS[39m Build start
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mBROWSER[2m][22m [34mESM[39m Build start
+[2m[[22mNATIVE[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mNATIVE[2m][22m [34mESM[39m Build start
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mBROWSER[2m][22m [34mIIFE[39m Build start
+[2m[[22mBROWSER[2m][22m [34mCLI[39m Target: esnext
+[2m[[22mBROWSER[2m][22m [34mIIFE[39m Build start
+[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.production.min.js [22m[32m106.29 KB[39m
+[2m[[22mBROWSER[2m][22m [32mIIFE[39m ⚡️ Build success in 1428ms
+[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.development.js     [22m[32m302.81 KB[39m
+[2m[[22mBROWSER[2m][22m [32mIIFE[39m [1mdist/index.development.js.map [22m[32m644.32 KB[39m
+[2m[[22mBROWSER[2m][22m [32mIIFE[39m ⚡️ Build success in 1495ms
+[2m[[22mBROWSER[2m][22m [32mCJS[39m [1mdist/index.browser.cjs     [22m[32m11.19 KB[39m
+[2m[[22mBROWSER[2m][22m [32mCJS[39m [1mdist/index.browser.cjs.map [22m[32m20.63 KB[39m
+[2m[[22mBROWSER[2m][22m [32mCJS[39m ⚡️ Build success in 1595ms
+[2m[[22mBROWSER[2m][22m [32mESM[39m [1mdist/index.browser.js     [22m[32m7.85 KB[39m
+[2m[[22mBROWSER[2m][22m [32mESM[39m [1mdist/index.browser.js.map [22m[32m20.63 KB[39m
+[2m[[22mBROWSER[2m][22m [32mESM[39m ⚡️ Build success in 1595ms
+[2m[[22mNODE[2m][22m [32mESM[39m [1mdist/index.node.js     [22m[32m7.85 KB[39m
+[2m[[22mNODE[2m][22m [32mESM[39m [1mdist/index.node.js.map [22m[32m20.63 KB[39m
+[2m[[22mNODE[2m][22m [32mESM[39m ⚡️ Build success in 1612ms
+[2m[[22mNATIVE[2m][22m [32mESM[39m [1mdist/index.native.js     [22m[32m7.85 KB[39m
+[2m[[22mNATIVE[2m][22m [32mESM[39m [1mdist/index.native.js.map [22m[32m20.63 KB[39m
+[2m[[22mNATIVE[2m][22m [32mESM[39m ⚡️ Build success in 1594ms
+[2m[[22mNODE[2m][22m [32mCJS[39m [1mdist/index.node.cjs     [22m[32m11.19 KB[39m
+[2m[[22mNODE[2m][22m [32mCJS[39m [1mdist/index.node.cjs.map [22m[32m20.63 KB[39m
+[2m[[22mNODE[2m][22m [32mCJS[39m ⚡️ Build success in 1702ms
